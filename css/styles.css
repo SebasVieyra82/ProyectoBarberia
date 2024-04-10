@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  min-height: 75px;
+  background-color: #a9a9a9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: "Berkshire Swash", serif;
+  font-size: 1.5em; /* Se ajusta el tamaño de la fuente */
+}
+
+header img {
+  max-height: 100%; /* Cambiado de height a max-height */
+  width: 150px;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+  padding: 0px 20px;
+}
+
+header a:hover {
+  background-color: antiquewhite;
+}
+
+/* Estilos generales para el cuerpo del documento */
+body {
+  background-color: #a9a9a9;
+  color: black;
+  font-family: "Berkshire Swash", serif;
+  margin: 0;
+}
+
+#hero {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../imagenes/IMG-20230905-WA00951.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+#info {
+  display: flex; /* Utilizamos flexbox para organizar los elementos */
+  justify-content: center; /* Centramos horizontalmente los elementos */
+  align-items: center; /* Centramos verticalmente los elementos */
+  text-align: center; /* Alineamos el texto al centro */
+}
+
+#info > div {
+  max-width: 800px; /* Establecemos un ancho máximo para el contenido */
+  padding: 20px; /* Añadimos un espacio interno al contenido */
+  background-color: #f9f9f9; /* Color de fondo para resaltar el contenido */
+  border-radius: 10px; /* Añadimos bordes redondeados al contenedor */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadimos sombra para resaltar el contenedor */
+  display: flex; /* Utilizamos flexbox para organizar los elementos */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en líneas si no caben en una sola línea */
+  justify-content: center; /* Centramos horizontalmente los elementos */
+}
+
+#info h2 {
+  font-size: 24px; /* Tamaño de fuente más grande para el título */
+  color: #333; /* Color del texto */
+}
+
+#info p {
+  font-size: 16px; /* Tamaño de fuente para el texto */
+  color: #666; /* Color del texto */
+  line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+}
+
+#info img {
+  width: calc(50% - 20px); /* Establecemos el ancho al 50% del contenedor con un margen entre las imágenes */
+  height: auto; /* Mantenemos la proporción de aspecto original */
+  display: block; /* Aseguramos que las imágenes se comporten como bloques */
+  margin: 10px; /* Añadimos un margen a todas las imágenes */
+}

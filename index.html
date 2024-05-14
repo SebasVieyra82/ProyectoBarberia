@@ -1,58 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barberia Lords</title>
-  <link rel="shortcut icon" href="imagenes/barberiaicono.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barberia Lords - Inicio</title>
+    <link rel="shortcut icon" href="imagenes/barberiaicono.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Encabezado y navegación -->
-  <header>
-    <img src="imagenes/Barber Shop (2).png" alt="barbero logo" height="200" width="200">
-    <nav>
-      <a href="#hero">Inicio</a>
-      <a href="#info">Sobre nosotros</a>
-      <a href="#serv">Servicios</a>
-      <a href="#gal">Galería</a>
-      <a href="#cont">Contacto</a>
-    </nav>
-  </header>
-  
-  <main>
-    <section id="hero">
-      <div>
-        <h1>BIENVENIDOS</h1>
-      </div>
+    <!-- Encabezado y navegación -->
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="sobre-nosotros.html">Sobre nosotros</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="galeria.html">Galería</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main>
+    <!-- Sección de Bienvenida -->
+    <section id="hero" class="animated">
+        <div>
+            <h1>BIENVENIDOS</h1>
+            <p>Desde 2015 nos dedicamos a mejorar la imagen de nuestros clientes.
+                El objetivo es brindar el mejor servicio y marcar tendencia.
+                Por eso construimos un espacio en el mundo para que disfrutes y te sientas cómodo.
+                Queremos que LORDS sea tu lugar donde, más allá de cambiar tu look,
+                puedas relajarte, disfrutar de una buena cerveza y encontrarte con amigos.
+                - Te esperamos -</p>
+        </div>
     </section>
-    <section id="info">
-      <div>
-        <img src="imagenes/imgclipper-8254064_1280.jpg" alt="maquinas de barbería">
-        <img src="imagenes/imgscissors-7019476_1280.jpg" alt="tijeras de barbería">
-        <h2>Sobre nosotros</h2>
-        <p>En Barbería Lords, llevamos más de una década proporcionando los mejores cortes de cabello y afeitados para caballeros de todas las edades. Nuestro equipo de experimentados barberos se dedica a brindar un servicio excepcional, combinando técnicas tradicionales con las últimas tendencias en el mundo de la barbería.</p>
-        <p>Lo que nos distingue es nuestro compromiso con la calidad, la atención al detalle y la satisfacción del cliente. Cada visita a Barbería Lords es una experiencia única, donde nuestros clientes no solo reciben un corte de cabello impecable, sino también un trato personalizado y amigable.</p>
-        <p>Nuestra reputación se basa en la confianza que han depositado en nosotros nuestros clientes, quienes nos eligen una y otra vez por la calidad de nuestros servicios y el ambiente acogedor que ofrecemos. Ven y descubre por qué somos la elección preferida de los caballeros exigentes que buscan lo mejor para su apariencia.</p>
-      </div>
-    </section>
-    <section id="serv">
-      <h2>Servicios</h2>
-    </section>
-    <section id="gal">
-      <h2>Galería</h2>
-    </section>
-    <section id="cont">
-      <h2>Contacto</h2>
-    </section>
-  </main>
 
-  <footer>
-    <p>© Barber Lords 2024</p>
-  </footer>
+    <div id="app">
+        <section id="banner" class="d-flex">
+            <div class="descripcion-container">
+                <h1>Servicios Destacados</h1>
+                <h2>Corte de cabello</h2>
+                <p id="descripcion">Corte de cabello con lavado incluído y terminaciones a navaja.</p>
+                <h3>Arreglo de barba</h3>
+                <p id="descripcion">Arreglo de barba con fomento caliente y frío. Terminaciones a navaja y productos para el cuidado de tu piel y barba.</p>
+                <a class="botonrojo" href="reservar.html">Reservar Turno</a>
+            </div>
+        </section> 
+        
+        
+    </div>
+    
+    
+    </main>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <ul class="social-icons">
+            <li>
+                <a href="https://www.facebook.com/lordsbarber" target="_blank">
+                    <i class="fab fa-facebook icon"></i> Facebook
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/lordsbarber" target="_blank">
+                    <i class="fab fa-instagram icon"></i> Instagram
+                </a>
+            </li>
+        </ul>
+        <div class="contenedor-redes">
+            <a href="https://www.facebook.com/lordsbarber" target="_blank"> 
+                <img src="imagenes/facebook.png" alt="facebooklords"> <!-- MODIFICAR TAMAÑO-->
+            </a>
+            <a href="https://www.instagram.com/lordsbarber" target="_blank"> 
+                <img src="imagenes/instagram.png" alt="instagramlords"> <!-- MODIFICAR TAMAÑO-->
+            </a>
+        </div>
+        <p>&copy; 2024 Barberia Lords</p>
+    </footer>   
+
 </body>
+
 </html>
